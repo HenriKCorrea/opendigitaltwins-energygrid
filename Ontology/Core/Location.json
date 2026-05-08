@@ -13,25 +13,18 @@
             "schema": "string"
         },
         {
-            "@type": "Property",
-            "name": "xPosition",
-            "description": "X axis position.",
-            "writable": true,
-            "schema": "double"
+            "@type": "Relationship",
+            "name": "CoordinateSystem",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:CoordinateSystem;1",
+            "description": "Coordinate system used to describe position points of this location.",
+            "displayName": "CoordinateSystem"
         },
         {
-            "@type": "Property",
-            "name": "yPosition",
-            "description": "Y axis position.",
-            "writable": true,
-            "schema": "double"
-        },
-        {
-            "@type": "Property",
-            "name": "zPosition",
-            "description": "(if applicable) Z axis position.",
-            "writable": true,
-            "schema": "double"
+            "@type": "Relationship",
+            "name": "PositionPoints",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PositionPoint;1",
+            "description": "Sequence of position points describing this location.",
+            "displayName": "PositionPoints"
         }
     ],
     "@context": "dtmi:dtdl:context;2"
