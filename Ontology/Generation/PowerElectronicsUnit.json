@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsUnit;1",
     "@type": "Interface",
     "displayName": "PowerElectronicsUnit",
     "comment": "A generating unit or battery or aggregation that connects to the AC network using power electronics rather than rotating machines.",
@@ -22,13 +22,13 @@
         {
             "@type": "Relationship",
             "name": "PowerElectronicsConnection",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsConnection;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsConnection;1",
             "comment": "A power electronics unit has a connection to the AC network.",
             "displayName": "PowerElectronicsConnection"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1"
     ]
 }

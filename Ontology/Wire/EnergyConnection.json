@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergyConnection;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EnergyConnection;1",
     "@type": "Interface",
     "displayName": "EnergyConnection",
     "comment": "A connection of energy generation or consumption on the power system model.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1"
     ]
 }

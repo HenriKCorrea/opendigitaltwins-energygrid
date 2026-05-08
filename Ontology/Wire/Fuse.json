@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Fuse;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Fuse;1",
     "@type": "Interface",
     "displayName": "Fuse",
     "comment": "An overcurrent protective device with a circuit opening fusible part that is heated and severed by the passage of overcurrent through it. A fuse is considered a switching device because it breaks current.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Switch;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Switch;1"
     ]
 }

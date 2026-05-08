@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:LoadBreakSwitch;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:LoadBreakSwitch;1",
     "@type": "Interface",
     "displayName": "LoadBreakSwitch",
     "comment": "A mechanical switching device capable of making, carrying, and breaking currents under normal operating conditions.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ProtectedSwitch;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ProtectedSwitch;1"
     ]
 }

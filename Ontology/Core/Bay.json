@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Bay;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Bay;1",
     "@type": "Interface",
     "displayName": "Bay",
     "description": "A collection of power system resources (within a given substation) including conducting equipment, protection relays, measurements, and telemetry.  A bay typically represents a physical grouping related to modularization of equipment.",
@@ -86,20 +86,20 @@
         {
             "@type": "Relationship",
             "name": "VoltageLevel",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:VoltageLevel;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:VoltageLevel;1",
             "comment": "The voltage level containing this bay.",
             "displayName": "VoltageLevel"
         },
         {
             "@type": "Relationship",
             "name": "memberOfSubstation",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:Substation;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:Substation;1",
             "comment": "The substation containing this bay.",
             "displayName": "memberOfSubstation"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
     ]
 }

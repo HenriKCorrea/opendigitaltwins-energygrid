@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:TapChangerTablePoint;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:TapChangerTablePoint;1",
     "@type": "Interface",
     "displayName": "TapChangerTablePoint",
     "description": "Describes each tap step in the tabular curve.",

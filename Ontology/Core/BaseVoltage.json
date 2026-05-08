@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:BaseVoltage;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:BaseVoltage;1",
     "@type": "Interface",
     "displayName": "BaseVoltage",
     "description": "Defines a system base voltage which is referenced. ",
@@ -16,6 +16,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]    
 }

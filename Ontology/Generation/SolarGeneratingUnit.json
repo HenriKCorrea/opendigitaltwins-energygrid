@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:SolarGeneratingUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:SolarGeneratingUnit;1",
     "@type": "Interface",
     "displayName": "SolarGeneratingUnit",
     "description": "A solar thermal generating unit, connected to the grid by means of a rotating machine.  This class does not represent photovoltaic (PV) generation.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "SolarPowerPlant",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SolarPowerPlant;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:SolarPowerPlant;1",
             "description": "A solar power plant may have solar generating units.",
             "displayName": "SolarPowerPlant"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratingUnit;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:GeneratingUnit;1"
     ]
 }

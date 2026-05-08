@@ -1,5 +1,5 @@
 {
-	"@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Substation;1",
+	"@id": "dtmi:agentwin:ngsi_ld:cim:energy:Substation;1",
 	"@type": "Interface",
 	"displayName": "Substation",
 	"description": "A collection of equipment for purposes other than generation or utilization, through which electric energy in bulk is passed for the purposes of switching or modifying its characteristics.",
@@ -42,20 +42,20 @@
 		{
 			"@type": "Relationship",
 			"name": "dcConverterUnit",
-			"target": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCConverterUnit;1",
+			"target": "dtmi:agentwin:ngsi_ld:cim:energy:DCConverterUnit;1",
 			"comment": "The DC converter unit belonging of the substation.",
 			"displayName": "DCConverterUnit"
 		},
 		{
 			"@type": "Relationship",
 			"name": "locatedAt",
-			"target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SubGeographicalRegion;1",
+			"target": "dtmi:agentwin:ngsi_ld:cim:energy:SubGeographicalRegion;1",
 			"comment": "The SubGeographicalRegion containing the substation.",
 			"displayName": "Region"
 		}
 	],
 	"@context": "dtmi:dtdl:context;2",
 	"extends": [
-		"dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1"
+		"dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
 	]
 }

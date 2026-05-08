@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PhotoVoltaicUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PhotoVoltaicUnit;1",
     "@type": "Interface",
     "displayName": "PhotoVoltaicUnit",
     "comment": "A photovoltaic device or an aggregation of such devices.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
     ]
 }

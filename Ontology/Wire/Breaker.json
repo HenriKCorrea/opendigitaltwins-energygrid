@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Breaker;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Breaker;1",
     "@type": "Interface",
     "displayName": "Breaker",
     "comment": "A mechanical switching device capable of making, carrying, and breaking currents under normal circuit conditions and also making, carrying for a specified time, and breaking currents under specified abnormal circuit conditions e.g.  those of short circuit.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ProtectedSwitch;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ProtectedSwitch;1"
     ]
 }

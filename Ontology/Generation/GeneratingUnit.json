@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratingUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:GeneratingUnit;1",
     "@type": "Interface",
     "displayName": "GeneratingUnit",
     "comment": "A single or set of synchronous machines for converting mechanical power into alternating-current power. For example, individual machines within a set may be defined for scheduling purposes while a single control signal is derived for the set. In this case there would be a GeneratingUnit for each member of the set and an additional GeneratingUnit corresponding to the set.",
@@ -106,34 +106,34 @@
         {
             "@type": "Relationship",
             "name": "ControlAreaGeneratingUnit",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:ControlAreaGeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:ControlAreaGeneratingUnit;1",
             "comment": "ControlArea specifications for this generating unit.",
             "displayName": "ControlAreaGeneratingUnit"
         },
         {
             "@type": "Relationship",
             "name": "GrossToNetActivePowerCurves",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:GrossToNetActivePowerCurve;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:GrossToNetActivePowerCurve;1",
             "comment": "A generating unit may have a gross active power to net active power curve, describing the losses and auxiliary power requirements of the unit.",
             "displayName": "GrossToNetActivePowerCurves"
         },
         {
             "@type": "Relationship",
             "name": "RotatingMachine",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:RotatingMachine;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:RotatingMachine;1",
             "comment": "A synchronous machine may operate as a generator and as such becomes a member of a generating unit.",
             "displayName": "RotatingMachine"
         },
         {
             "@type": "Relationship",
             "name": "genControlSource",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratorControlSource;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:GeneratorControlSource;1",
             "comment": "The source of controls for a generating unit.  Defines the control status of the generating unit.",
             "displayName": "genControlSource"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1"
     ]
 }

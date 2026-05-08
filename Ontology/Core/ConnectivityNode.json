@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ConnectivityNode;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ConnectivityNode;1",
     "@type": "Interface",
     "displayName": "ConnectivityNode",
     "description": "Connectivity nodes are points where terminals of AC conducting equipment are connected together with zero impedance.",
@@ -8,7 +8,7 @@
         {
             "@type": "Relationship",
             "name": "ConnectivityNodeContainer",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:ConnectivityNodeContainer;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:ConnectivityNodeContainer;1",
             "comment": "Container of this connectivity node.",
             "displayName": "ConnectivityNodeContainer"
         },
@@ -21,13 +21,13 @@
         {
             "@type": "Relationship",
             "name": "BoundaryPoint",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:BoundaryPoint;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:BoundaryPoint;1",
             "comment": "The boundary point associated with the connectivity node.",
             "displayName": "BoundaryPoint"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EquivalentLoad;1",
+  "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EquivalentLoad;1",
   "@type": "Interface",
   "displayName": "EquivalentLoad",
   "description": "Adapted from CIM and https://github.com/smart-data-models/dataModel.EnergyCIM/ data models: a LV customer is an EquivalentLoad",
@@ -57,7 +57,7 @@
       "@type": "Relationship",
       "name": "memberOf_EquipmentContainer",
       "description": "A EquivalentLoad --> EquipmentContainer --> Substation",
-      "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1"
+      "target": "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
     }
   ],
   "@context": "dtmi:dtdl:context;2"

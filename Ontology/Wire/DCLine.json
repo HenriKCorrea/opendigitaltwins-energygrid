@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCLine;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:DCLine;1",
     "@type": "Interface",
     "displayName": "DCLine",
     "comment": "Overhead lines and/or cables connecting two or more HVDC substations.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "region",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SubGeographicalRegion;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:SubGeographicalRegion;1",
             "comment": "The SubGeographicalRegion containing the DC line.",
             "displayName": "Region"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:DCEquipmentContainer;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:DCEquipmentContainer;1"
     ]
 }

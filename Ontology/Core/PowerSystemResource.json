@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1",
     "@type": "Interface",
     "displayName": "PowerSystemResource",
     "description": "A power system resource (PSR) can be an item of equipment such as a switch, an equipment container containing many individual items of equipment such as a substation, or an organisational entity such as sub-control area. Power system resources can have measurements associated.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

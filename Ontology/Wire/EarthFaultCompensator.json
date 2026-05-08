@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EarthFaultCompensator;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EarthFaultCompensator;1",
     "@type": "Interface",
     "displayName": "EarthFaultCompensator",
     "comment": "A conducting equipment used to represent a connection to ground which is typically used to compensate earth faults.   An earth fault compensator device modelled with a single terminal implies a second terminal solidly connected to ground.  If two terminals are modelled, the ground is not assumed and normal connection rules apply.",
@@ -15,6 +15,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1"
     ]
 }

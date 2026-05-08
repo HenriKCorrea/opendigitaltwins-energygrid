@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ProtectedSwitch;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ProtectedSwitch;1",
     "@type": "Interface",
     "displayName": "ProtectedSwitch",
     "comment": "A ProtectedSwitch is a switching device that can be operated by ProtectionEquipment.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Switch;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Switch;1"
     ]
 }

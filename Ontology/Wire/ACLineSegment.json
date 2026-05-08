@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ACLineSegment;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ACLineSegment;1",
     "@type": "Interface",
     "displayName": "ACLineSegment",
     "comment": "A wire or combination of wires, with consistent electrical characteristics, building a single electrical system, used to carry alternating current between points in the power system.\nFor symmetrical, transposed three phase lines, it is sufficient to use attributes of the line segment, which describe impedances and admittances for the entire length of the segment.  Additionally impedances can be computed by using length and associated per length impedances.\nThe BaseVoltage at the two ends of ACLineSegments i",
@@ -36,13 +36,13 @@
         {
             "@type": "Relationship",
             "name": "Conductor",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:Conductor;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:Conductor;1",
             "comment": "conductor details applied to the line segment.",
             "displayName": "Conductor"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Conductor;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Conductor;1"
     ]
 }

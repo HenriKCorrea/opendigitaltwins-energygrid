@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Meter;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Meter;1",
     "@type": "Interface",
     "displayName": "Meter",
     "description": "Physical asset that performs the metering role of the usage point. Used for measuring consumption and detection of events.",
@@ -22,7 +22,7 @@
         {
             "@type": "Relationship",
             "name": "meterReading",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:MeterReading;1",            
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:MeterReading;1",            
             "displayName": "meterReading"
         }
     ],

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulationSchedule;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:RegulationSchedule;1",
     "@type": "Interface",
     "displayName": "RegulationSchedule",
     "description": "A pre-established pattern over time for a controlled variable, e.g., busbar voltage.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "RegulatingControl",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingControl;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingControl;1",
             "comment": "Regulating controls that have this schedule.",
             "displayName": "RegulatingControl"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:SeasonDayTypeSchedule;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:SeasonDayTypeSchedule;1"
     ]
 }

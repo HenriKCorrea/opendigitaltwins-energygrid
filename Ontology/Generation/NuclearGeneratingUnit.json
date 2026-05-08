@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:NuclearGeneratingUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:NuclearGeneratingUnit;1",
     "@type": "Interface",
     "displayName": "NuclearGeneratingUnit",
     "comment": "A nuclear generating unit.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratingUnit;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:GeneratingUnit;1"
     ]
 }

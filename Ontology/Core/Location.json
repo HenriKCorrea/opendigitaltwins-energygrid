@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Location;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Location;1",
     "@type": "Interface",
     "displayName": "Location",
     "description": "Location is used to deifne the absolute position of an assets",

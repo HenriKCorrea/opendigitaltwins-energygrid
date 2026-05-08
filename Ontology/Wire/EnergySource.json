@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergySource;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EnergySource;1",
     "@type": "Interface",
     "displayName": "EnergySource",
     "comment": "A generic equivalent for an energy supplier on a transmission or distribution voltage level.",
@@ -29,13 +29,13 @@
         {
             "@type": "Relationship",
             "name": "EnergySchedulingType",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergySchedulingType;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:EnergySchedulingType;1",
             "comment": "Energy Scheduling Type of an Energy Source.",
             "displayName": "EnergySchedulingType"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergyConnection;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EnergyConnection;1"
     ]
 }

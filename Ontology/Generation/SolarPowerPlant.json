@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:SolarPowerPlant;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:SolarPowerPlant;1",
     "@type": "Interface",
     "displayName": "SolarPowerPlant",
     "comment": "Solar power plant.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "SolarGeneratingUnits",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SolarGeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:SolarGeneratingUnit;1",
             "comment": "A solar generating unit or units may be a member of a solar power plant.",
             "displayName": "SolarGeneratingUnits"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }

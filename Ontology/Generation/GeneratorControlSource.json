@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratorControlSource;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:GeneratorControlSource;1",
     "@type": "Interface",
     "displayName": "GeneratorControlSource",
     "comment": "The source of controls for a generating unit.",

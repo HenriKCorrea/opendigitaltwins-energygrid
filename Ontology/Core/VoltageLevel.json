@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:VoltageLevel;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:VoltageLevel;1",
     "@type": "Interface",
     "displayName": "VoltageLevel",
     "description": "A collection of equipment at one common system voltage forming a switchgear. The equipment typically consists of breakers, busbars, instrumentation, control, regulation and protection devices as well as assemblies of all these.",
@@ -22,7 +22,7 @@
         {
             "@type": "Relationship",
             "name": "assignedBaseVoltage",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:BaseVoltage;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:BaseVoltage;1",
             "comment": "The base voltage used for all equipment within the voltage level.",
             "displayName": "BaseVoltage"
         },
@@ -30,11 +30,11 @@
             "@type": "Relationship",
             "name": "MemberOf_Substation",
             "description": "Shows a relationship to a substation",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:Substation;1"
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:Substation;1"
         } 
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:RotatingMachine;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:RotatingMachine;1",
     "@type": "Interface",
     "displayName": "RotatingMachine",
     "comment": "A rotating machine which may be used as a generator or motor.",
@@ -29,20 +29,20 @@
         {
             "@type": "Relationship",
             "name": "GeneratingUnit",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:GeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:GeneratingUnit;1",
             "comment": "A synchronous machine may operate as a generator and as such becomes a member of a generating unit.",
             "displayName": "GeneratingUnit"
         },
         {
             "@type": "Relationship",
             "name": "HydroPump",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:HydroPump;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:HydroPump;1",
             "comment": "The synchronous machine drives the turbine which moves the water from a low elevation to a higher elevation. The direction of machine rotation for pumping may or may not be the same as for generating.",
             "displayName": "HydroPump"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingCondEq;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingCondEq;1"
     ]
 }

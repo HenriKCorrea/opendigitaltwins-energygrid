@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsWindUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsWindUnit;1",
     "@type": "Interface",
     "displayName": "PowerElectronicsWindUnit",
     "comment": "A wind generating unit that connects to the AC network with power electronics rather than rotating machines or an aggregation of such units.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
     ]
 }

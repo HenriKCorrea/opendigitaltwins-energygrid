@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:StaticVarCompensator;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:StaticVarCompensator;1",
     "@type": "Interface",
     "displayName": "StaticVarCompensator",
     "description": "A facility for providing variable and controllable shunt reactive power. The SVC typically consists of a stepdown transformer, filter, thyristor-controlled reactor, and thyristor-switched capacitor arms.\n\nThe SVC may operate in fixed MVar output mode or in voltage control mode. When in voltage control mode, the output of the SVC will be proportional to the deviation of voltage at the controlled bus from the voltage setpoint.  The SVC characteristic slope defines the proportion.  If the voltage at the contro",
@@ -36,13 +36,13 @@
         {
             "@type": "Relationship",
             "name": "sVCControlMode",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SVCControlMode;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:SVCControlMode;1",
             "description": "SVC control mode.",
             "displayName": "sVCControlMode"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingCondEq;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingCondEq;1"
     ]
 }

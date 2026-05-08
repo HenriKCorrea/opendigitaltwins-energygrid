@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:CogenerationPlant;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:CogenerationPlant;1",
     "@type": "Interface",
     "displayName": "CogenerationPlant",
     "comment": "A set of thermal generating units for the production of electrical energy and process steam (usually from the output of the steam turbines). The steam sendout is typically used for industrial purposes or for municipal heating and cooling.",
@@ -43,13 +43,13 @@
         {
             "@type": "Relationship",
             "name": "ThermalGeneratingUnits",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:ThermalGeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:ThermalGeneratingUnit;1",
             "comment": "A thermal generating unit may be a member of a cogeneration plant.",
             "displayName": "ThermalGeneratingUnits"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }

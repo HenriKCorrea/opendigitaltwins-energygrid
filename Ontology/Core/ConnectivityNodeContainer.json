@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ConnectivityNodeContainer;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ConnectivityNodeContainer;1",
     "@type": "Interface",
     "displayName": "ConnectivityNodeContainer",
     "description": "A base class for all objects that may contain connectivity nodes or topological nodes.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "ConnectivityNodes",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:ConnectivityNode;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:ConnectivityNode;1",
             "comment": "Connectivity nodes which belong to this connectivity node container.",
             "displayName": "ConnectivityNodes"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }

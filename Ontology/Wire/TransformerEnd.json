@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:TransformerEnd;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:TransformerEnd;1",
     "@type": "Interface",
     "displayName": "TransformerEnd",
     "comment": "A conducting connection point of a power transformer. It corresponds to a physical transformer winding terminal.  In earlier CIM versions, the TransformerWinding class served a similar purpose, but this class is more flexible because it associates to terminal but is not a specialization of ConductingEquipment.",
@@ -15,27 +15,27 @@
         {
             "@type": "Relationship",
             "name": "BaseVoltage",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:BaseVoltage;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:BaseVoltage;1",
             "comment": "Base voltage of the transformer end.  This is essential for PU calculation.",
             "displayName": "BaseVoltage"
         },
         {
             "@type": "Relationship",
             "name": "PhaseTapChanger",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PhaseTapChanger;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PhaseTapChanger;1",
             "comment": "Phase tap changer associated with this transformer end.",
             "displayName": "PhaseTapChanger"
         },
         {
             "@type": "Relationship",
             "name": "RatioTapChanger",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:RatioTapChanger;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:RatioTapChanger;1",
             "comment": "Ratio tap changer associated with this transformer end.",
             "displayName": "RatioTapChanger"
         }       
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

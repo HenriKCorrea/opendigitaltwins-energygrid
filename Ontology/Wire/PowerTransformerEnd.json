@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerTransformerEnd;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PowerTransformerEnd;1",
     "@type": "Interface",
     "displayName": "PowerTransformerEnd",
     "comment": "A PowerTransformerEnd is associated with each Terminal of a PowerTransformer.\nThe impedance values r, r0, x, and x0 of a PowerTransformerEnd represents a star equivalent as follows.\n1) for a two Terminal PowerTransformer the high voltage (TransformerEnd.endNumber=1) PowerTransformerEnd has non zero values on r, r0, x, and x0 while the low voltage (TransformerEnd.endNumber=2) PowerTransformerEnd has zero values for r, r0, x, and x0.  Parameters are always provided, even if the PowerTransformerEnds have the s",
@@ -50,20 +50,20 @@
         {
             "@type": "Relationship",
             "name": "PowerTransformer",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerTransformer;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PowerTransformer;1",
             "comment": "The power transformer of this power transformer end.",
             "displayName": "PowerTransformer"
         },
         {
             "@type": "Relationship",
             "name": "connectionKind",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:WindingConnection;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:WindingConnection;1",
             "comment": "Kind of connection.",
             "displayName": "connectionKind"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:TransformerEnd;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:TransformerEnd;1"
     ]
 }

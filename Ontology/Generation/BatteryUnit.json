@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:BatteryUnit;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:BatteryUnit;1",
     "@type": "Interface",
     "displayName": "BatteryUnit",
     "comment": "An electrochemical energy storage device.",
@@ -59,6 +59,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsUnit;1"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:DisconnectingCircuitBreaker;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:DisconnectingCircuitBreaker;1",
     "@type": "Interface",
     "displayName": "DisconnectingCircuitBreaker",
     "comment": "A circuit breaking device including disconnecting function, eliminating the need for separate disconnectors.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Breaker;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Breaker;1"
     ]
 }

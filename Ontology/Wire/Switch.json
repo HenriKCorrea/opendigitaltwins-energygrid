@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Switch;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Switch;1",
     "@type": "Interface",
     "displayName": "Switch",
     "comment": "A generic device designed to close, or open, or both, one or more electric circuits.  All switches are two terminal devices including grounding switches. The ACDCTerminal.connected at the two sides of the switch shall not be considered for assessing switch connectivity, i.e. only Switch.open, .normalOpen and .locked are relevant.",
@@ -29,13 +29,13 @@
         {
             "@type": "Relationship",
             "name": "SwitchSchedules",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:SwitchSchedule;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:SwitchSchedule;1",
             "comment": "A Switch can be associated with SwitchSchedules.",
             "displayName": "SwitchSchedules"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1"
     ]
 }

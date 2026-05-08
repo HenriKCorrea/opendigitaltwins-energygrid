@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:HydroPlantStorageKind;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:HydroPlantStorageKind;1",
     "@type": "Interface",
     "displayName": "HydroPlantStorageKind",
     "comment": "The type of hydro power plant.",

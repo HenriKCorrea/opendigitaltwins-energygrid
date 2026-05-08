@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCConductingEquipment;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:DCConductingEquipment;1",
     "@type": "Interface",
     "displayName": "DCConductingEquipment",
     "comment": "The parts of the DC power system that are designed to carry current or that are conductively connected through DC terminals.",
@@ -15,13 +15,13 @@
         {
             "@type": "Relationship",
             "name": "DCTerminals",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCTerminal;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:DCTerminal;1",
             "comment": "A DC conducting equipment has DC terminals.",
             "displayName": "DCTerminals"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1"
     ]
 }

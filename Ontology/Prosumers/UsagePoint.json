@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:UsagePoint;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:UsagePoint;1",
     "@type": "Interface",
     "displayName": "UsagePoint",
     "description": "Logical or physical point in the network to which readings or events may be attributed. Used at the place where a physical or virtual meter may be located; however, it is not required that a meter be present.",
@@ -195,7 +195,7 @@
         {
             "@type": "Relationship",
             "name": "relatedEquipment",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1",
             "comment": "connection to an equipment.",
             "displayName": "relatedEquipment"
         }

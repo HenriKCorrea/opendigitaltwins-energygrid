@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ACDCTerminal;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ACDCTerminal;1",
     "@type": "Interface",
     "displayName": "ACDCTerminal",
     "description": "An electrical connection point (AC or DC) to a piece of conducting equipment. Terminals are connected at physical connection points called connectivity nodes.",
@@ -22,13 +22,13 @@
         {
             "@type": "Relationship",
             "name": "OperationalLimitSet",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:OperationalLimitSet;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:OperationalLimitSet;1",
             "comment": "The operational limit sets at the terminal.",
             "displayName": "OperationalLimitSet"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

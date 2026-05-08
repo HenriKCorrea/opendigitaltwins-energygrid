@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PetersenCoil;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PetersenCoil;1",
     "@type": "Interface",
     "displayName": "PetersenCoil",
     "comment": "A variable impedance device normally used to offset line charging during single line faults in an ungrounded section of network.",
@@ -43,6 +43,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EarthFaultCompensator;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EarthFaultCompensator;1"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:SynchronousMachineKind;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:SynchronousMachineKind;1",
     "@type": "Interface",
     "displayName": "SynchronousMachineKind",
     "description": "Synchronous machine type.",

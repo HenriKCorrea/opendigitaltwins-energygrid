@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Conductor;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Conductor;1",
     "@type": "Interface",
     "displayName": "Conductor",
     "comment": "Combination of conducting material with consistent electrical characteristics, building a single electrical system, used to carry current between points in the power system.  ",
@@ -15,6 +15,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1"
     ]
 }

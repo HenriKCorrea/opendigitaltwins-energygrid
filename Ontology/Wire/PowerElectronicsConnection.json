@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsConnection;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsConnection;1",
     "@type": "Interface",
     "displayName": "PowerElectronicsConnection",
     "comment": "A connection to the AC network for energy production or consumption that uses power electronics rather than rotating machines.",
@@ -36,13 +36,13 @@
         {
             "@type": "Relationship",
             "name": "PowerElectronicsUnit",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerElectronicsUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PowerElectronicsUnit;1",
             "comment": "An AC network connection may have several power electronics units connecting through it.",
             "displayName": "PowerElectronicsUnit"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingCondEq;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingCondEq;1"
     ]
 }

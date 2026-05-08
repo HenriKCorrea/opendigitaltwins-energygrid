@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Jumper;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Jumper;1",
     "@type": "Interface",
     "displayName": "Jumper",
     "comment": "A short section of conductor with negligible impedance which can be manually removed and replaced if the circuit is de-energized. Note that zero-impedance branches can potentially be modelled by other equipment types.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Switch;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Switch;1"
     ]
 }

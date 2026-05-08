@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCLineSegment;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:DCLineSegment;1",
     "@type": "Interface",
     "displayName": "DCLineSegment",
     "comment": "A wire or combination of wires not insulated from one another, with consistent electrical characteristics, used to carry direct current between points in the DC region of the power system.",
@@ -36,6 +36,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:DCConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:DCConductingEquipment;1"
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:GeographicalRegion;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:GeographicalRegion;1",
     "@type": "Interface",
     "displayName": "GeographicalRegion",
     "comment": "A geographical region of a power system network model.",
@@ -7,7 +7,7 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1",
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Location;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1",
+        "dtmi:agentwin:ngsi_ld:cim:energy:Location;1"
     ]
 }

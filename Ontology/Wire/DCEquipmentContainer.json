@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCEquipmentContainer;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:DCEquipmentContainer;1",
     "@type": "Interface",
     "displayName": "DCEquipmentContainer",
     "comment": "A modelling construct to provide a root class for containment of DC as well as AC equipment. The class differ from the EquipmentContaner for AC in that it may also contain DCNode-s. Hence it can contain both AC and DC equipment.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "DCNodes",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:DCNode;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:DCNode;1",
             "comment": "The DC nodes contained in the DC equipment container.",
             "displayName": "DCNodes"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
     ]
 }

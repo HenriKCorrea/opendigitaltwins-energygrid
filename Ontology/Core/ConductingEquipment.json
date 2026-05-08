@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1",
     "@type": "Interface",
     "displayName": "ConductingEquipment",
     "description": "The parts of the AC power system that are designed to carry current or that are conductively connected through terminals.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "BaseVoltage",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:BaseVoltage;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:BaseVoltage;1",
             "comment": "Base voltage of this conducting equipment.  Use only when there is no voltage level container used and only one base voltage applies.  For example, not used for transformers.",
             "displayName": "BaseVoltage"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1"
     ]
 }

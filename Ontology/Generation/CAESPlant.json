@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:CAESPlant;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:CAESPlant;1",
     "@type": "Interface",
     "displayName": "CAESPlant",
     "comment": "Compressed air energy storage plant.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "ThermalGeneratingUnit",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:ThermalGeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:ThermalGeneratingUnit;1",
             "comment": "A thermal generating unit may be a member of a compressed air energy storage plant.",
             "displayName": "ThermalGeneratingUnit"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }

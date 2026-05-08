@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingControlModeKind;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingControlModeKind;1",
     "@type": "Interface",
     "displayName": "RegulatingControlModeKind",
     "comment": "The kind of regulation model.   For example regulating voltage, reactive power, active power, etc.",

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:WindingConnection;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:WindingConnection;1",
     "@type": "Interface",
     "displayName": "WindingConnection",
     "comment": "Winding connection type.",

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:ShuntCompensator;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:ShuntCompensator;1",
     "@type": "Interface",
     "displayName": "ShuntCompensator",
     "description": "A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors. A section of a shunt compensator is an individual capacitor or reactor. A negative value for bPerSection indicates that the compensator is a reactor. ShuntCompensator is a single terminal device.  Ground is implied.",
@@ -50,6 +50,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:RegulatingCondEq;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:RegulatingCondEq;1"
     ]
 }

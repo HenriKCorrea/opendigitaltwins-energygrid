@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:MeterReading;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:MeterReading;1",
     "@type": "Interface",
     "displayName": "MeterReading",
     "description": "Set of values obtained from the meter.",
@@ -22,6 +22,6 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

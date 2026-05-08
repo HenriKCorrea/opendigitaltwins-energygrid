@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:NonlinearShuntCompensatorPoint;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:NonlinearShuntCompensatorPoint;1",
     "@type": "Interface",
     "@context": "dtmi:dtdl:context;2",
     "displayName": "NonlinearShuntCompensatorPoint",
@@ -30,7 +30,7 @@
         {
             "@type": "Relationship",
             "name": "NonlinearShuntCompensator",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:NonlinearShuntCompensator;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:NonlinearShuntCompensator;1",
             "comment": "Non-linear shunt compensator owning this point.",
             "displayName": "NonlinearShuntCompensator"
         }

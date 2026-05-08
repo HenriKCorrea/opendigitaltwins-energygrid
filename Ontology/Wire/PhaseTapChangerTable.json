@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:PhaseTapChangerTable;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:PhaseTapChangerTable;1",
     "@type": "Interface",
     "displayName": "PhaseTapChangerTable",
     "comment": "Describes a tabular curve for how the phase angle difference and impedance varies with the tap step.",
@@ -8,20 +8,20 @@
         {
             "@type": "Relationship",
             "name": "PhaseTapChangerTablePoint",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PhaseTapChangerTablePoint;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PhaseTapChangerTablePoint;1",
             "comment": "The points of this table.",
             "displayName": "PhaseTapChangerTablePoint"
         },
         {
             "@type": "Relationship",
             "name": "PhaseTapChangerTabular",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:PhaseTapChangerTabular;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:PhaseTapChangerTabular;1",
             "comment": "The phase tap changers to which this phase tap table applies.",
             "displayName": "PhaseTapChangerTabular"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1"
     ]
 }

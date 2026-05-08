@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:IdentifiedObject;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:IdentifiedObject;1",
     "@type": "Interface",
     "displayName": "IdentifiedObject",
     "description": "This is a root class to provide common identification for all classes needing identification and naming attributes.",

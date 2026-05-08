@@ -1,5 +1,5 @@
 {
-        "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EquipmentContainer;1",
+        "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1",
         "@type": "Interface",
         "displayName": "EquipmentContainer",
         "description": "A modelling construct to provide a root class for containing equipment. ",
@@ -8,13 +8,13 @@
             {
                 "@type": "Relationship",
                 "name": "Equipments",
-                "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:Equipment;1",
+                "target": "dtmi:agentwin:ngsi_ld:cim:energy:Equipment;1",
                 "comment": "Contained equipment.",
                 "displayName": "Equipments"
             }
         ],
         "@context": "dtmi:dtdl:context;2",
         "extends": [
-            "dtmi:digitaltwins:ngsi_ld:cim:energy:ConnectivityNodeContainer;1"
+            "dtmi:agentwin:ngsi_ld:cim:energy:ConnectivityNodeContainer;1"
         ]     
     }

@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergyConsumer;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:EnergyConsumer;1",
     "@type": "Interface",
     "displayName": "EnergyConsumer",
     "comment": "Generic user of energy - a  point of consumption on the power system model.\nEnergyConsumer.pfixed, .qfixed, .pfixedPct and .qfixedPct have meaning only if there is no LoadResponseCharacteristic associated with EnergyConsumer or if LoadResponseCharacteristic.exponentModel is set to False.",
@@ -36,13 +36,13 @@
         {
             "@type": "Relationship",
             "name": "LoadResponse",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:LoadResponseCharacteristic;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:LoadResponseCharacteristic;1",
             "comment": "The load response characteristic of this load.  If missing, this load is assumed to be constant power.",
             "displayName": "LoadResponse"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:EnergyConnection;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:EnergyConnection;1"
     ]
 }

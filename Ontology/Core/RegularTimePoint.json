@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:RegularTimePoint;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:RegularTimePoint;1",
     "@type": "Interface",
     "displayName": "RegularTimePoint",
     "comment": "Time point for a schedule where the time between the consecutive points is constant.",
@@ -29,7 +29,7 @@
         {
             "@type": "Relationship",
             "name": "IntervalSchedule",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:RegularIntervalSchedule;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:RegularIntervalSchedule;1",
             "comment": "Regular interval schedule containing this time point.",
             "displayName": "IntervalSchedule"
         }

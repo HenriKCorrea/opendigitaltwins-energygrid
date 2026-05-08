@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:Connector;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:Connector;1",
     "@type": "Interface",
     "displayName": "Connector",
     "comment": "A conductor, or group of conductors, with negligible impedance, that serve to connect other conducting equipment within a single substation and are modelled with a single logical terminal.",
@@ -7,6 +7,6 @@
     "contents": [],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:ConductingEquipment;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:ConductingEquipment;1"
     ]
 }

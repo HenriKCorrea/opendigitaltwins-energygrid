@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:WindPowerPlant;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:WindPowerPlant;1",
     "@type": "Interface",
     "displayName": "WindPowerPlant",
     "comment": "Wind power plant.",
@@ -8,13 +8,13 @@
         {
             "@type": "Relationship",
             "name": "WindGeneratingUnits",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:WindGeneratingUnit;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:WindGeneratingUnit;1",
             "comment": "A wind generating unit or units may be a member of a wind power plant.",
             "displayName": "WindGeneratingUnits"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }

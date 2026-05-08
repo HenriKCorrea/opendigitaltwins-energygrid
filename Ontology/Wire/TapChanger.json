@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:ngsi_ld:cim:energy:TapChanger;1",
+    "@id": "dtmi:agentwin:ngsi_ld:cim:energy:TapChanger;1",
     "@type": "Interface",
     "displayName": "TapChanger",
     "description": "Mechanism for changing transformer winding tap positions.",
@@ -50,20 +50,20 @@
         {
             "@type": "Relationship",
             "name": "TapChangerControl",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:TapChangerControl;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:TapChangerControl;1",
             "description": "The regulating control scheme in which this tap changer participates.",
             "displayName": "TapChangerControl"
         },
         {
             "@type": "Relationship",
             "name": "TapSchedules",
-            "target": "dtmi:digitaltwins:ngsi_ld:cim:energy:TapSchedule;1",
+            "target": "dtmi:agentwin:ngsi_ld:cim:energy:TapSchedule;1",
             "description": "A TapChanger can have TapSchedules.",
             "displayName": "TapSchedules"
         }
     ],
     "@context": "dtmi:dtdl:context;2",
     "extends": [
-        "dtmi:digitaltwins:ngsi_ld:cim:energy:PowerSystemResource;1"
+        "dtmi:agentwin:ngsi_ld:cim:energy:PowerSystemResource;1"
     ]
 }
