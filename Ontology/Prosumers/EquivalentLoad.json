@@ -6,13 +6,6 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "eqLoadName",
-      "description": "The name of the equivalent load.",
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
       "name": "p",
       "description": "Active power of the load. Load sign convention is used, i.e. positive sign means flow out from a node. For voltage dependent loads the value is at rated voltage. Starting value for a steady state solution. Default: 0.0",
       "writable": true,
@@ -20,22 +13,8 @@
     },
     {
       "@type": "Property",
-      "name": "pfixed",
-      "description": "Active power of the load that is a fixed quantity. Load sign convention is used, i.e. positive sign means flow out from a node. Default: 0.0",
-      "writable": true,
-      "schema": "double"
-    },
-    {
-      "@type": "Property",
       "name": "q",
       "description": "Reactive power of the load. Load sign convention is used, i.e. positive sign means flow out from a node. For voltage dependent loads the value is at rated voltage. Starting value for a steady state solution. Default: 0.0",
-      "writable": true,
-      "schema": "double"
-    },
-    {
-      "@type": "Property",
-      "name": "qfixed",
-      "description": "Reactive power of the load that is a fixed quantity. Load sign convention is used, i.e. positive sign means flow out from a node. Default: 0.0",
       "writable": true,
       "schema": "double"
     },
@@ -52,13 +31,10 @@
       "description": "the attribute that indicate the number of customers attached",
       "writable": true,
       "schema": "integer"
-    },
-    {
-      "@type": "Relationship",
-      "name": "memberOf_EquipmentContainer",
-      "description": "A EquivalentLoad --> EquipmentContainer --> Substation",
-      "target": "dtmi:agentwin:ngsi_ld:cim:energy:EquipmentContainer;1"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": "dtmi:dtdl:context;2",
+  "extends": [
+    "dtmi:agentwin:ngsi_ld:cim:energy:EnergyConsumer;1"
+  ]
 }
