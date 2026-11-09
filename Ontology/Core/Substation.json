@@ -22,6 +22,11 @@
 				"valueSchema": "string",
 				"enumValues": [
 					{
+						"name": "HV_MV_substation",
+						"displayName": "HV/MV substation",
+						"enumValue": "HVMV"
+					},
+					{
 						"name": "MV_MV_substation",
 						"displayName": "MV/MV substation",
 						"enumValue": "MVMV"
